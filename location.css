@@ -1,0 +1,63 @@
+#location{
+    margin-bottom: 100px;
+}
+#location-title{
+    margin-bottom: 40px;
+}
+
+#location-title p{
+    font-size: 36px;
+    color: #363636;
+}
+#location-title p span{
+    font-weight: 600;
+}
+
+#places{
+    border: 1px solid#e8e8e8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32%;
+    margin-bottom: 15px;
+    box-shadow: #1c1c1c14 0px 1.4px 2.8px;
+}
+
+#see-more{
+    border: 1px solid#e8e8e8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+#see-more i{
+    margin-left: 10px;
+}
+
+#place-name{
+    line-height: 30px;
+}
+
+#place-name h5{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 500;
+}
+
+#place-name p{
+    font-size: 16px;
+    color: #363636;
+}
+
+#location-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}

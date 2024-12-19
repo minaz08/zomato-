@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+   background-image:url("https://images.freekaamaal.com/post_images/1606817930.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+nav{
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-style: 14px;
+    font-weight: 500;
+}
+
+#menu ul{
+    display: flex;
+    gap: 40px;
+}
+
+#menu ul li{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#main{
+    height: calc(60vh - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #fff; */
+}
+
+#main #logo{
+    margin-top: 20px;
+}
+
+#main #logo img{
+    width: 280px;
+}
+
+#main #tagline{
+    margin: 30px;
+}
+
+#main #tagline h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#searchcontainer{
+    background-color: #ffffff;
+    width: 55%;
+    padding: 15px 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;        
+
+}
+
+#searchcontainer #city{
+    border-right: 2px solid #828282;
+}
+
+#searchcontainer input{
+    border: none;
+    border-left: 5px;
+
+}
+
+
+#resturant{
+    margin-left: 20px;
+}
+
+#resturant  i{
+    margin-right: 15px;
+}
+
+#resturant span{ color: #868686;
+}
